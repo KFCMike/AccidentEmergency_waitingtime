@@ -1,4 +1,4 @@
-import requests
+21import requests
 
 import json
 
@@ -14,7 +14,7 @@ names=[j['result']['hospData'][i]['hospNameEn'] for i in range(0,18)]
 
 waitime=[j['result']['hospData'][i]['topWait'] for i in range(0,18)]
 
-names[15]=names[15][0:19]
+names[15]=names[15][0:21]
 
 dt=j['result']['hospData'][0]['hospTimeEn']
 
